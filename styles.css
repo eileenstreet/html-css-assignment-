@@ -18,11 +18,19 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
-body,
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    margin: 0 auto;
     font-size: 16px;
-    padding: 0.5em;
+    width: 100%;
+    height: 100%;
+    /* padding: 0.5em; */
 }
 
 /* responsive images */
@@ -31,21 +39,21 @@ img {
 }
 
 h1 {
-    margin: 0.67em 0;
+    /* margin: 0.67em 0;
     padding: 10px;
-    padding-bottom: 0;
+    padding-bottom: 0; */
     font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
-    margin: 0.67em 0;
+    /* margin: 0.67em 0;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
+    margin-block-end: 0.67em; */
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: italic;
@@ -55,10 +63,10 @@ h2 {
 }
 
 h3 {
-    margin: 0.67em 0;
+    /* margin: 0.67em 0;
     padding: 10px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color: gray;
@@ -66,10 +74,10 @@ h3 {
 }
 
 h4 {
-    margin: 0.67em 0;
+    /* margin: 0.67em 0;
     padding: 20px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     font-family: 'Roboto', sans-serif;
     font-size: 2.0em;
     text-align: center;
@@ -81,10 +89,10 @@ h3 {
 }
 
 h5 {
-    margin: 0.67em 0;
+    /* margin: 0.67em 0;
     padding: 20px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
     text-align: left;
@@ -93,14 +101,15 @@ h5 {
 
 figcaption,
 p {
-    margin: 0.67em 0;
-    padding: 10px;
-    padding-top: 0px;
+    /* margin: 0.67em 0;
+    padding: 10px; */
+    /* padding-top: 0px;
     padding-bottom: 0px;
     margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
+    margin-block-end: 0.67em; */
     line-height: 1.25em;
     font-size: 1.2em;
+    justify-content: align;
 }
 
 hr {
@@ -109,10 +118,11 @@ hr {
 }
 
 .container {
-        margin: 0.67em 0;
-        padding: 10px;
-        padding-bottom: 0;
-        margin: auto;
+        /* margin: 0.67em 0; */
+        /* padding: 10px;
+        padding-bottom: 0; */
+        width: 100%;
+        margin: 0 auto;
         padding: 10px;
 }
 
@@ -121,6 +131,7 @@ hr {
     margin: 0 auto;
     padding: 10px;
 }
+
 figure {
     width: 100%;
     margin: 0 auto;
@@ -128,18 +139,18 @@ figure {
 }
 
 .main_img {
-    margin: 0;
-    padding: 10px;
+    margin: 0 auto;
+    /* padding: 10px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     width: 100%;
 }
 
 .head-photo {
-    margin: 0;
-    padding: 10px;
+    margin: 0 auto;
+    /* padding: 10px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     font-size: 1em;
     color: gray;
     font-family: 'Roboto', sans-serif;
@@ -149,11 +160,11 @@ figure {
 
 .text-date {
     margin: 0.67em 0;
-    padding: 10px;
+    /* padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
+    margin-block-end: 0.67em; */
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
     text-align: left;
@@ -162,9 +173,9 @@ figure {
 
 .icon-container img {
     display: block;
-    max-width: 500px;
-    margin: auto;
-    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    /* padding: 10px; */
 }
 
 .graphic-text {
@@ -200,7 +211,7 @@ figure {
     }
 
     .graphic-text {
-        padding: 10px;
+        padding: 2px;
         /* width: 500px; */
     }
 }
